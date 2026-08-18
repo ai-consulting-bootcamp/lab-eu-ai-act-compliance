@@ -60,8 +60,19 @@ Across the four proposals reviewed, risk splits clearly along one line: systems 
 *Decision:* **Approve as proposed.** Flag for the client that if the vision system's scope is ever extended to the structural-bracket line, this classification should be revisited given the closer tie to vehicle functional-safety standards.
 
 ### Debrief notes (fill in after client discussion, Phase 4)
-- Partner's intended category vs. your inferred category, per case:
-- Where the hidden scenario worked well / was too vague:
-- What changed after the client conversation:
-- Borderline arguments or counter-arguments per case (optional, for reinforcement):
-- One operational artifact the client would need next (e.g. logging policy, transparency notice, FRIA draft):
+### Debrief notes (fill in after client discussion, Phase 4)
+
+- **Partner's intended category vs. your inferred category, per case:**
+  Cases 1, 2, and 4 matched cleanly — prohibited, high-risk, and minimal-risk respectively, no disagreement. Case 3 was the one point of discussion: I had flagged it conservatively as high-risk under Annex I (treating the drowsiness-detection feature as a safety component tied to GSR 2019/2144 type-approval). My partner's intended category was limited risk / transparency. After discussion, we agreed on **limited risk / transparency** as the better call.
+
+- **Where the hidden scenario worked well / was too vague:**
+  Cases 1, 2, and 4 were well-scoped — enough detail to classify confidently without the category being obvious from the first sentence. Case 3 worked as intended as a genuine borderline test: it deliberately combined a safety-exception-eligible use (drowsiness detection) with a detail (mandated vehicle safety feature) that pulls toward Annex I if read conservatively. That ambiguity was the point of the exercise, not a flaw in the brief.
+
+- **What changed after the client conversation:**
+  We agreed to move Case 3 from high-risk (Annex I) to limited risk / transparency. The reasoning: GSR-driven type-approval conformity assessment is a separate regulatory track from AI Act Annex I classification, and shouldn't be assumed to trigger Annex I on its own without confirming the product legislation actually designates this specific feature as a regulated "safety component" under the AI Act's cross-reference rules. Given the system processes data locally, shares nothing externally, and already discloses via the manual and dashboard icon, the transparency-only profile fits better absent that confirmation. My original call was the more conservative, defensible starting position, but overstated the risk once we talked through the Annex I trigger conditions specifically.
+
+- **Borderline arguments or counter-arguments per case:**
+  Case 3 remains the standout borderline case. Argument for high-risk: it's a legally-relevant vehicle safety feature in a type-approved product. Argument for limited risk / transparency (the one we landed on): local-only processing, no data leaves the vehicle, no evaluative decision made about the driver by a third party, and disclosure already meets Article 50-style expectations. The Annex I reading should still be flagged to a legal team rather than dismissed outright — it depends on how the vehicle's specific type-approval documentation characterizes this feature.
+
+- **One operational artifact the client would need next:**
+  For Case 3, a short written memo documenting the Annex I-vs-transparency reasoning (essentially a lightweight risk classification memo, not a full FRIA) — something the client can point to if a regulator or auditor later asks why this wasn't classified as high-risk.
