@@ -1,0 +1,102 @@
+# EU AI Act Approval Pack
+
+**Client:** Confidential  
+**Prepared by:** AI Consulting Team  
+**Assessment:** Initial EU AI Act Compliance Review
+
+---
+
+# Executive Summary
+
+Four proposed AI use cases were reviewed against the EU AI Act to assess whether they can proceed to implementation. The assessment identified one **Minimal Risk** system suitable for immediate deployment, one **Limited Risk** system requiring transparency measures, one **High-Risk** system requiring significant governance before launch, and one **Prohibited** use case that should not proceed in its current form.
+
+| Use Case | Classification | Recommendation |
+|----------|----------------|----------------|
+| Warehouse Restocking | Minimal Risk | ✅ Approve |
+| Customer Support Chatbot | Limited Risk | 🟡 Approve with Controls |
+| AI Recruitment Screening | High-Risk | 🟡 Approve with Controls |
+| Checkout Behavior Analysis | Prohibited | ❌ Deny and Redesign |
+
+Overall, three projects may proceed with appropriate governance. One proposal requires redesign because its intended use presents unacceptable regulatory risk.
+
+---
+
+# 1. Warehouse Restocking
+
+The client proposes an AI forecasting tool that predicts warehouse inventory needs using historical sales, seasonal demand, and weather forecasts. Warehouse managers review every recommendation before purchase orders are approved.
+
+This solution is classified as **Minimal Risk** because it supports internal operational decisions without affecting individuals' rights or opportunities. Human decision-making remains fully intact.
+
+The recommended architecture consists of a forecasting model generating replenishment recommendations that are reviewed by warehouse managers before implementation. Forecasts, manager decisions, and model performance should be logged to support continuous improvement.
+
+The furniture company acts as the **deployer**, while either an internal development team or external forecasting software vendor serves as the **provider**.
+
+No specific AI Act obligations apply. Good practice includes documentation, cybersecurity, monitoring forecast accuracy, and GDPR compliance should personal data be introduced in future versions.
+
+### Recommendation
+
+**Approve.**
+
+---
+
+# 2. Customer Support Chatbot
+
+The telecommunications company proposes deploying an AI assistant to answer routine customer questions relating to billing, subscriptions, and account services. Complex conversations are transferred to human support staff.
+
+The proposal falls within the **Limited Risk / Transparency** category because customers interact directly with AI, although the chatbot does not make legally significant decisions.
+
+The recommended architecture consists of an AI assistant using company knowledge bases and customer account information to generate responses. Customers should be informed at the beginning of every interaction that they are communicating with AI, while a clear escalation path to human support should remain available. Conversation logs should be maintained for quality assurance.
+
+The chatbot provider (internal or external) acts as the **provider**, while the telecommunications company acts as the **deployer**.
+
+Primary compliance obligations include transparency, human escalation, GDPR compliance, and operational monitoring.
+
+### Recommendation
+
+**Approve with Controls.**
+
+---
+
+# 3. AI Recruitment Screening
+
+The logistics company intends to use AI to evaluate resumes and recorded interviews before candidates proceed to human interviews. Applicants below a predefined threshold receive automatic rejection.
+
+This proposal is classified as **High-Risk** because AI directly influences access to employment.
+
+The recommended architecture places AI in a decision-support role rather than as the final decision-maker. Applications are evaluated by AI, recruiters independently review recommendations, and every hiring decision remains under documented human control. Complete audit logs, technical documentation, and model performance records should be maintained.
+
+The recruitment software provider serves as the **provider**, while the logistics company acts as the **deployer**.
+
+Before deployment, the company should establish meaningful human oversight, risk management procedures, technical documentation, bias testing, audit logging, staff training, and GDPR compliance. Current practice, where recruiters routinely accept AI recommendations, should be replaced with active human review.
+
+### Recommendation
+
+**Approve with Controls.**
+
+---
+
+# 4. Checkout Behavior Analysis
+
+The online retailer proposes using customers' webcams during checkout to analyze facial movements and estimate hesitation before automatically displaying personalized urgency messages intended to increase purchases.
+
+Following assessment, this proposal is classified as a **Prohibited AI Practice**. Although reducing cart abandonment is a legitimate commercial objective, the proposed implementation relies on AI inference of customers' emotional or behavioral state and immediately uses those inferences to influence purchasing behavior. The legal concern arises from the intended use of the AI rather than from the technical implementation itself.
+
+The proposed architecture performs webcam analysis, behavioral inference, and automated message generation without meaningful human oversight. While logging could be implemented, additional governance measures would not resolve the underlying compliance issue.
+
+The retailer acts as the **deployer**, while the computer vision software vendor acts as the **provider**.
+
+The recommended redesign replaces biometric analysis with personalization based on lawful business information such as shopping history, browsing behavior, shopping cart contents, or voluntarily provided customer preferences. This achieves similar commercial objectives while substantially reducing regulatory risk.
+
+### Recommendation
+
+**Deny and Redesign.**
+
+---
+
+# Overall Conclusion
+
+The review demonstrates that AI systems should be classified according to **their intended purpose and impact**, rather than the technology itself.
+
+Three proposals can proceed following implementation of the recommended governance measures appropriate to their respective risk categories. The checkout behavior analysis proposal should not be launched in its current form. A redesign based on non-biometric contextual information is recommended before further development.
+
+From a deployment readiness perspective, the client should prioritize establishing an AI governance framework covering documentation, human oversight, operational monitoring, incident management, and GDPR compliance. Doing so will support both regulatory compliance and responsible long-term AI adoption.
