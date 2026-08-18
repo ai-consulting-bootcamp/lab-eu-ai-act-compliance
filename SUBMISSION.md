@@ -16,14 +16,11 @@ tracks are included:
 Files I (Vittal) authored are prefixed `vittal-`; Ugo's file is kept exactly
 as received.
 
-## Status: Track B debrief is in progress
+## Status: complete
 
-Phase 5 (Debrief) for Track B needs Ugo's classification of *my* four cases,
-compared against my private answer key — that comparison can't happen until
-his review comes back. I'll push an update to this PR with
-`consulting/vittal-debrief-with-ugo.md` once it arrives. Track A's debrief
-(`consulting/vittal-debrief.md`) is complete and stands on its own as a full
-demonstration of the checkpoint in the meantime.
+Ugo's review of my four cases arrived and matched my private answer key
+4/4, blind. The Phase 5 debrief for Track B is in
+`consulting/vittal-debrief-with-ugo.md`.
 
 ## File map
 
@@ -45,6 +42,8 @@ demonstration of the checkpoint in the meantime.
 | [consulting/vittal-briefs-for-ugo.md](consulting/vittal-briefs-for-ugo.md) | My 4 hidden client briefs (5–7 lines each, labels removed) — sent to Ugo for his Phase 2 review. |
 | [consulting/partner-brief-ugo-ahukannah.md](consulting/partner-brief-ugo-ahukannah.md) | Ugo's 4 hidden client briefs, as received (MobiShare, Nordhaven, Brightseed, Lindqvist & Sons). |
 | [consulting/vittal-approval-pack-for-ugo.md](consulting/vittal-approval-pack-for-ugo.md) | My Phase 2/3 review of Ugo's 4 cases — first-pass category + reasoning, architecture, provider/deployer/vendor, obligations, decision, packaged as a 3-page-max approval pack. |
+| [consulting/eu-ai-act-approval-pack-ugo-ahukannah.md](consulting/eu-ai-act-approval-pack-ugo-ahukannah.md) | Ugo's approval pack reviewing *my* 4 cases — his blind classification, architecture, roles, obligations, decisions, and redesign for my prohibited case. |
+| [consulting/vittal-debrief-with-ugo.md](consulting/vittal-debrief-with-ugo.md) | Phase 4/5 debrief: my intended categories vs. Ugo's inferred ones (4/4 match), what worked/was too vague in the hidden briefs, points flagged for legal verification, and my closing note as the client. |
 
 ## How to read this repo
 
@@ -55,6 +54,5 @@ demonstration of the checkpoint in the meantime.
    classification, architecture, and decision, done blind.
 3. Check `private/answer-key.md` against `consulting/vittal-debrief.md` for
    the Track A reveal and closing note.
-4. Track B's reveal and closing note will land in
-   `consulting/vittal-debrief-with-ugo.md` once Ugo's review of my cases is
-   back.
+4. Track B's reveal and closing note are in
+   `consulting/vittal-debrief-with-ugo.md`.
