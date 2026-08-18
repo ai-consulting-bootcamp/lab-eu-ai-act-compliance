@@ -60,7 +60,6 @@ Across the four proposals reviewed, risk splits clearly along one line: systems 
 *Decision:* **Approve as proposed.** Flag for the client that if the vision system's scope is ever extended to the structural-bracket line, this classification should be revisited given the closer tie to vehicle functional-safety standards.
 
 ### Debrief notes (fill in after client discussion, Phase 4)
-### Debrief notes (fill in after client discussion, Phase 4)
 
 - **Partner's intended category vs. your inferred category, per case:**
   Cases 1, 2, and 4 matched cleanly — prohibited, high-risk, and minimal-risk respectively, no disagreement. Case 3 was the one point of discussion: I had flagged it conservatively as high-risk under Annex I (treating the drowsiness-detection feature as a safety component tied to GSR 2019/2144 type-approval). My partner's intended category was limited risk / transparency. After discussion, we agreed on **limited risk / transparency** as the better call.
