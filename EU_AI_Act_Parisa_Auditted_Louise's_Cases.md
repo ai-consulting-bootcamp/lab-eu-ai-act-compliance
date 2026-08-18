@@ -1,4 +1,6 @@
-# Audit of Louise's Four Client Cases
+# Consulting review of Louis’s four proposed AI use cases
+# Authour: Parisa Dehghani
+
 
 > **Classification summary:** Case 1 → Minimal risk · Case 2 → High-risk · Case 3 → Prohibited · Case 4 → Limited risk / transparency
 
