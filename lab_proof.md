@@ -97,3 +97,9 @@ European Commission, Article 50 transparency FAQs: https://digital-strategy.ec.e
 - [EU AI Act, consolidated text](https://eur-lex.europa.eu/eli/reg/2024/1689)
 - [European Commission — AI Act framework and application timeline](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
 - [European Commission — Article 50 transparency FAQs](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act)
+
+
+
+### What changed after the client discussion?
+
+The client agreed with the recommendations: proceed with controls for SkyWays and Cedar & Finch, approve Northline’s pilot, and redesign BrightPath’s sales prompts before launch.
