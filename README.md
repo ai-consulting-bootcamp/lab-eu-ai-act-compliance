@@ -9,6 +9,10 @@ This repository contains everything you need for this lab.
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
 
+## Submission map
+
+Start with [lab_proof.md](./lab_proof.md) for the complete file map, evidence, and simulation disclosure. The final [approval pack](./approval-pack.pdf) is three pages. [Consulting review](./consulting-review.md) contains the decision table.
+
 ## How to complete this lab
 
 1. **Fork** this repository.
