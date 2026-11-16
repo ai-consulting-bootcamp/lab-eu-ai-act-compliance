@@ -11,9 +11,7 @@ This repository contains everything you need for this lab.
 
 ## Submission map
 
-- [`lab_proof.md`](./lab_proof.md) records the workflow, sample run, evidence, and current status.
-- [`client-briefs.md`](./client-briefs.md) contains the four label-free cases for the blind exchange.
-- [`check_blind_briefs.py`](./check_blind_briefs.py) checks the handout structure.
+Start with [lab_proof.md](./lab_proof.md) for the complete file map, evidence, and simulation disclosure. The final [approval pack](./approval-pack.pdf) is three pages. [Consulting review](./consulting-review.md) contains the decision table.
 
 ## How to complete this lab
 
