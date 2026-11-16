@@ -9,6 +9,12 @@ This repository contains everything you need for this lab.
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
 
+## Submission map
+
+- [`lab_proof.md`](./lab_proof.md) records the workflow, sample run, evidence, and current status.
+- [`client-briefs.md`](./client-briefs.md) contains the four label-free cases for the blind exchange.
+- [`check_blind_briefs.py`](./check_blind_briefs.py) checks the handout structure.
+
 ## How to complete this lab
 
 1. **Fork** this repository.
