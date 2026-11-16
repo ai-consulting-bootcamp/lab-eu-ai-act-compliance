@@ -8,6 +8,7 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`eu-ai-act-approval-pack-barsha.md`](./eu-ai-act-approval-pack-barsha.md) — my approval pack: private answer key, client briefs, consulting review of my partner's cases, and debrief
 
 ## How to complete this lab
 
