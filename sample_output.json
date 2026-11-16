@@ -1,0 +1,100 @@
+[
+  {
+    "case": "A",
+    "tier": "Prohibited",
+    "decision": "Deny and redesign",
+    "rule": "workplace_emotion",
+    "legal_hook": "Art. 5(1)(f)",
+    "evidence": {
+      "workplace": {
+        "value": true,
+        "evidence": "Staff role-plays and manager coaching."
+      },
+      "biometric_emotion_inference": {
+        "value": true,
+        "evidence": "Facial expressions and vocal tones used to flag anxiety, irritation or comfort."
+      },
+      "medical_or_safety_purpose": {
+        "value": false,
+        "evidence": "Purpose is service quality, not medical care or safety."
+      }
+    },
+    "additional_checks": []
+  },
+  {
+    "case": "B",
+    "tier": "High-risk",
+    "decision": "Approve with controls",
+    "rule": "recruitment_ranking",
+    "legal_hook": "Art. 6(2); Annex III 4(a)",
+    "evidence": {
+      "recruitment": {
+        "value": true,
+        "evidence": "Industrial maintenance applicants are being selected for interviews."
+      },
+      "candidate_ranking": {
+        "value": true,
+        "evidence": "Dashboard sorts candidates, shows the top 20 first, and guides review order."
+      }
+    },
+    "additional_checks": []
+  },
+  {
+    "case": "C",
+    "tier": "Limited risk / transparency",
+    "decision": "Approve with controls",
+    "rule": "direct_ai_interaction",
+    "legal_hook": "Art. 50(1), (5)",
+    "evidence": {
+      "direct_conversation": {
+        "value": true,
+        "evidence": "Visitors type free-form questions to the AI and receive replies."
+      },
+      "synthetic_text": {
+        "value": true,
+        "evidence": "External language model generates answers using approved FAQ pages."
+      }
+    },
+    "additional_checks": [
+      "Check Art. 50(2) marking, exceptions and transition."
+    ]
+  },
+  {
+    "case": "D",
+    "tier": "Minimal risk",
+    "decision": "Approve",
+    "rule": "entity_deduplication",
+    "legal_hook": "Art. 4 remains relevant",
+    "evidence": {
+      "internal_corporate_record_matching": {
+        "value": true,
+        "evidence": "Nightly internal batch compares names, register courts and registration numbers."
+      },
+      "workplace": {
+        "value": false,
+        "evidence": "No monitoring or assessment of workers."
+      },
+      "biometric_emotion_inference": {
+        "value": false,
+        "evidence": "No biometric inputs or emotion outputs."
+      },
+      "recruitment": {
+        "value": false,
+        "evidence": "Not used for hiring."
+      },
+      "candidate_ranking": {
+        "value": false,
+        "evidence": "Scores candidate record pairs, not job candidates."
+      },
+      "direct_conversation": {
+        "value": false,
+        "evidence": "Internal batch sends IDs and scores to a queue."
+      },
+      "synthetic_text": {
+        "value": false,
+        "evidence": "Outputs IDs and numerical scores only."
+      }
+    },
+    "additional_checks": []
+  }
+]

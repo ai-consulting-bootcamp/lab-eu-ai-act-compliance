@@ -1,0 +1,15 @@
+[
+  {
+    "case": "A-missing-purpose",
+    "facts": {
+      "workplace": {
+        "value": true,
+        "evidence": "Staff role-plays and manager coaching."
+      },
+      "biometric_emotion_inference": {
+        "value": true,
+        "evidence": "Facial expressions and vocal tones used to flag anxiety, irritation or comfort."
+      }
+    }
+  }
+]

@@ -21,3 +21,7 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+## Submission
+
+Start with [lab_proof.md](lab_proof.md) for the approval pack and reproducible evidence. Share only [client_briefs.md](client_briefs.md) for the blind review.
