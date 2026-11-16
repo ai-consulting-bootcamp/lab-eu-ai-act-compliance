@@ -81,3 +81,6 @@ Not all four proposals can launch as designed. Case 1 can launch only with clear
 **Compliance implications:** Before individual use, complete the applicable high-risk requirements, including risk management, data governance, technical documentation, logging, accuracy and robustness measures, monitoring, and conformity assessment. Test for bias and proxy discrimination; provide required information to affected workers and representatives; restrict access; and ensure managers can understand, challenge, and override recommendations, recording their independent reasons. Also address GDPR purpose limitation, minimization, retention, and transparency.
 
 **Decision:** **Approve with controls.** Do not launch individual recommendations for escalation or promotion until the applicable obligations are documented, bias testing is complete, affected workers are informed, and effective human oversight is demonstrated. Team-level descriptive analytics may proceed separately only if it cannot be used to assess individuals.
+
+## Phase 4: Client discussion and final sign-off
+To be concluded
