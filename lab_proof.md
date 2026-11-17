@@ -1,5 +1,8 @@
 # Lab Proof
 
+This is a lab project created for training and evaluation purposes only. It does not use any real personal, employee, customer, or business data. All examples, scenarios, and case studies are fictional and intended for compliance education, not for production, legal, regulatory, or operational decision-making.
+
+
 This file confirms the completion of the EU AI Act compliance lab setup for this repository.
 
 ## Phase 1: Build the hidden client brief
