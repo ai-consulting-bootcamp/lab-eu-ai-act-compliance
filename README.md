@@ -8,6 +8,7 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`phase-1-hidden-client-briefs.md`](./phase-1-hidden-client-briefs.md) — Phase 1 private answer key and partner-facing client briefs
 
 ## How to complete this lab
 
