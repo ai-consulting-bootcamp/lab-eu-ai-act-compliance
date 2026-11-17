@@ -8,6 +8,11 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`phase-1-hidden-client-briefs.md`](./phase-1-hidden-client-briefs.md) — Phase 1 private answer key and original partner-facing briefs
+- [`client_briefs.md`](./client_briefs.md) — partner briefs supplied for the blind review
+- [`phase-2-consulting-review.md`](./phase-2-consulting-review.md) — Phase 2 first-pass classifications, architecture, roles, controls and decisions
+- [`phase-3-approval-pack.md`](./phase-3-approval-pack.md) — Phase 3 client-ready approval pack, kept to a three-page export target
+- [`phase-4-final-sign-off.md`](./phase-4-final-sign-off.md) — Phase 4 comparison, sign-off decisions and closing note
 
 ## How to complete this lab
 
