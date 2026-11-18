@@ -1,0 +1,10 @@
+# Phase 2 — Consulting review table (partner's four hidden cases)
+
+**Consultant:** Jaime Garate Marquerie · **Client briefs from:** Sandra Obregón · 17 Nov 2026. The full reasoning is in [`eu_ai_act_approval_pack_jaime_garate.md`](eu_ai_act_approval_pack_jaime_garate.md).
+
+| Case | Likely category | Why this is your first-pass call | Proposed AI architecture | Provider / deployer / vendor | Required obligations or controls | Decision |
+|---|---|---|---|---|---|---|
+| 1 · Ranking job applications | High-risk | Annex III 4(a), recruitment and filtering (Art. 6(2)). The ranking decides who gets an interview | Job criteria → CVs and forms → explainable ranking → human review of results and rejections → reasoned invitations → log | Provider to confirm · Deployer: logistics company · Vendor: model or ATS supplier (not identified) | High-risk regime; information to candidates; GDPR safeguards | Approve with controls |
+| 2 · Frustration detection in calls | Prohibited | Art. 5(1)(f), emotion inference in the workplace; no medical or safety exception | Redesign: objective service indicators → supervisor review → coaching. No emotion inference | Deployer: logistics company · Vendor: emotion-recognition supplier | Remove the module; check proportionality, GDPR and labour rights | Deny and redesign |
+| 3 · Parcel-tracking chatbot | Limited risk / transparency | Art. 50(1): direct interaction; it shares a window with human agents | AI notice at the start → FAQ or authenticated tracking → limited query → replies marked as automated → human hand-off → minimised logs | Provider to confirm · Deployer: logistics company · Vendors: LLM, hosting, tracking | AI notice (Art. 50(1), (5)); access control; minimisation | Approve with controls |
+| 4 · Labelling empty boxes | Minimal risk | No Art. 5 practice, no Annex III area, not an Art. 6(1) safety component | Photo → vision model → label with confidence → mandatory human correction → catalogue → correction log | Provider to confirm · Deployer: logistics company · Vendor: vision service, if any | None specific under the AI Act; accuracy tests; no personal data in photos | Approve |
