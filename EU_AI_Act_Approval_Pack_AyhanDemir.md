@@ -47,3 +47,7 @@ Yes, all four can launch; three need controls first. No case is prohibited under
 - **Decision: Approve with controls,** starting with a one-site pilot after CE certificate review.
 
 **Assumptions:** each client buys from a vendor (client = deployer; building in-house or rebranding makes it provider, Art. 25). Case 1 assumes direct customer answers; agent-only would be minimal. Legal to confirm high-risk application dates and the MDR class.
+
+## Client discussion and sign-off
+
+Categories match for both of us, and as clients we both agreed to the findings and adaptations.
