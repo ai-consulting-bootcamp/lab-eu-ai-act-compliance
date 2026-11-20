@@ -86,4 +86,6 @@ Not all four proposals can launch as designed. Case 1 can launch only with clear
 **Decision:** **Approve with controls.** Do not launch individual recommendations for escalation or promotion until the applicable obligations are documented, bias testing is complete, affected workers are informed, and effective human oversight is demonstrated. Team-level descriptive analytics may proceed separately only if it cannot be used to assess individuals.
 
 ## Phase 4: Client discussion and final sign-off
-To be concluded
+Both group partners agreed that the risk categories matched their assessments. In our client roles, we also agreed with the audit findings and proposed adaptations.
+
+The final EU AI Act audit report proposed by Ayhan Demir for the Interview Prep Report workflow is available here: [Audit report by Ayhan Demir](./audit_report_AI_act_byAyhan.md).
