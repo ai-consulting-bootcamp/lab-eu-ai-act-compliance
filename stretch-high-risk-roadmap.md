@@ -1,0 +1,9 @@
+# Stretch: mini implementation roadmap - Case B (applicant ranking, high-risk)
+
+Applies from **2 Dec 2027** (Annex III, as moved by Reg. (EU) 2026/1744). The agency should build these terms into the vendor contract now, because a recruitment tool bought in 2026 will still be in use when the obligations start.
+
+| Who | Must have in place | When |
+|---|---|---|
+| **Provider (vendor)** | Risk-management system (Art 9); training data governance and bias examination (Art 10); technical documentation (Art 11); automatic logging (Art 12); instructions for use stating intended purpose, accuracy and limits (Art 13); human-oversight features such as reasons per rank and override capture (Art 14); accuracy and robustness testing (Art 15); QMS (Art 17); internal-control conformity assessment, EU declaration of conformity, CE marking (Art 43, 47, 48); EU database registration (Art 49); post-market monitoring (Art 72) | Before placing on the market |
+| **Deployer (agency)** | Named, trained overseers with authority to override (Art 26(2)); input-data check, so no photos, age or nationality fields are fed in (Art 26(4)); applicant notice that a high-risk AI system is used (Art 26(11)); log retention ≥ 6 months (Art 26(6)); incident and monitoring process (Art 26(5)); GDPR DPIA; works-council agreement on selection guidelines; AI-literacy training (Art 4) | Before first use |
+| **Evidence to request from the vendor** | 1. EU declaration of conformity + registration number. 2. Instructions for use. 3. Bias test results by sex, age band and nationality on comparable warehouse roles. 4. Description of training data sources. 5. Sample log export showing rank, reasons and override. 6. Contract clause: vendor notifies the agency of substantial modifications and serious incidents | Due diligence, before signing |
