@@ -13,10 +13,10 @@ This repository contains everything you need for this lab.
 
 | File | What it contains | Lab step |
 |---|---|---|
-| [`client-briefs-for-partner.md`](./client-briefs-for-partner.md) | My four unlabelled client briefs, the version the partner sees | Phase 1 / Recognize |
-| [`private-answer-key.md`](./private-answer-key.md) | Intended category and rationale for each of my briefs, plus the traps I built in | Phase 1 / Recognize |
+| [`client-briefs-for-partner.md`](./client-briefs-for-partner.md) | `## Consulting response`: my four unlabelled, shuffled client briefs (Cases W–Z), the version the partner sees | Phase 1 / Recognize |
+| [`private-answer-key.md`](./private-answer-key.md) | `## Private answer key`: Case 1 - Prohibited … Case 4 - Minimal risk, mapped to the briefs, with rationale and the traps I built in | Phase 1 / Recognize |
 | [`consulting-review-table.md`](./consulting-review-table.md) | Blind first-pass review of the partner's cases A–D: category, architecture, roles, controls, decision | Phase 2 / Apply, Integrate, Verify |
-| [`eu-ai-act-approval-pack-ben-mayer.md`](./eu-ai-act-approval-pack-ben-mayer.md) | Approval pack, 3 pages max: executive summary, four cases, redesign for the prohibited case | Phase 3 / Verify |
+| [`eu-ai-act-approval-pack-ben-mayer.md`](./eu-ai-act-approval-pack-ben-mayer.md) | Approval pack, 3 pages max (1301 words, about 3 A4 pages): executive summary, four cases, redesign for the prohibited case, closing note "What changed after the client discussion?" | Phase 3 + 4 / Verify |
 | [`debrief-and-client-discussion.md`](./debrief-and-client-discussion.md) | Intended vs. inferred comparison, scenario quality, simulated client discussion, "What changed?" | Phase 4 / Debrief |
 | [`stretch-high-risk-roadmap.md`](./stretch-high-risk-roadmap.md) | Half-page provider, deployer and vendor-evidence roadmap for the high-risk case | Stretch |
 

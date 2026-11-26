@@ -1,6 +1,6 @@
 # Debrief and client discussion
 
-> **Simulation disclosure.** My partner (S. Rostovskyi) was not available for the live session. The **briefs and answer key are the partner's real work** ([repo](https://github.com/s-rostovskyi/lab-eu-ai-act-compliance)). I wrote my review before opening their answer key. The **client discussion below is simulated**: I played the client role, raising the challenges the partner's briefs invite. The partner has not yet reviewed my briefs; that review is still pending.
+> **Simulation disclosure.** My partner (S. Rostovskyi) was not available for the live session. The **briefs and answer key are the partner's real work** ([repo](https://github.com/s-rostovskyi/lab-eu-ai-act-compliance)). I wrote my review before opening their answer key. The **client discussion below was simulated with an AI assistant** playing the client, raising the challenges the partner's briefs invite. The partner has not yet reviewed my briefs; that review is still pending.
 
 ## 1. Intended vs. inferred
 
@@ -17,7 +17,11 @@
 
 - **Worked well:** **A** is a good test. "Rail" makes you think of critical infrastructure (Annex III §2), and you have to notice it isn't a safety component. **B** has a realistic trap: on paper the human can override, but in practice the first 20 names decide.
 - **Too revealing:** **D** ("the tool has no medical or safety purpose") and **C** ("without shipment-level records or customer identifiers") answer the legal exception questions for you. Real clients rarely volunteer that. A messier version would leave it out and make the consultant ask.
-- **Self-critique of my own briefs:** Case 1 names "ethnic heritage" and "religiously observant" outright, which probably makes it too easy. A subtler version would say the vendor "segments by cultural profile using facial features and clothing". Case 3's "sunnier weather and fewer people" is a deliberate parallel-issue hook (misleading advertising), not a tier clue.
+- **Self-critique of my own briefs, fixed before sharing:** after seeing the partner's briefs, I applied the same test to mine. My first drafts had the same problems:
+  - They were numbered in template order (1 = prohibited … 4 = minimal), so the tiers could be read off the numbers. I relabelled them W–Z and shuffled the order.
+  - The fashion-chain case named "ethnic heritage" and "religiously observant" outright. It now says "cultural profile from facial features and clothing", so the reviewer has to work out that it is a sensitive-trait inference.
+  - The photo-archive case said "never used to make decisions about individuals" and "not asked to recognise who they are", which answered the legal questions for the reader. I removed both lines.
+  - Case Y's "sunnier weather and fewer people" stays, as a deliberate parallel-issue hook (misleading advertising), not a tier clue.
 
 ## 3. Simulated client discussion
 

@@ -11,7 +11,7 @@
 | C | Carton demand forecast | Minimal | **Approve** |
 | D | Agent voice emotion flags | **Prohibited** (Art 5(1)(f)) | **Deny and redesign** |
 
-Out of four proposals, one can't launch in any form: inferring employee emotions from voice is banned outright, and the ban has been enforced since Feb 2025. One is high-risk and can launch only with provider evidence and real human oversight. Its obligations bite from **2 Dec 2027** after the Digital Omnibus (Reg. (EU) 2026/1744), but they belong in the contract now. One needs only disclosure and safe answer boundaries. One is minimal risk. **Tier depends on what the system does to people, not on the technology:** the same "AI that reads text" is minimal in Case C and high-risk in Case B.
+Out of four proposals, one can't launch in any form: inferring employee emotions from voice is banned outright. The prohibition has applied since 2 Feb 2025, with penalties enforceable since 2 Aug 2025. One is high-risk and can launch only with provider evidence and real human oversight. Its obligations bite from **2 Dec 2027** after the Digital Omnibus (Reg. (EU) 2026/1744), but they belong in the contract now. One needs only disclosure and safe answer boundaries. One is minimal risk. **Tier depends on what the system does to people, not on the technology:** the same "AI that reads text" is minimal in Case C and high-risk in Case B.
 
 ---
 
@@ -83,3 +83,12 @@ Out of four proposals, one can't launch in any form: inferring employee emotions
 | B | Vendor evidence pack, DPIA, oversight SOP, works-council agreement, then pilot | Agency + vendor |
 | C | Launch; confirm data feed is aggregate | Depot ops |
 | D | Terminate the emotion pilot; scope the redesign; union agreement | Contact centre + vendor |
+
+## What changed after the client discussion?
+
+The client confirmed all four tiers (4/4 match with the answer key). The controls got more specific:
+- **A:** Art 50(2) output marking changes from "verify with legal" to a firm launch requirement, and the AI disclosure must appear at the first interaction, clear and accessible (Art 50(5)).
+- **B:** "Bands instead of a ranked list" is softened to *ranking inside visible bands*, plus a metric that checks whether recruiters approve the top 20 at a much higher rate than people further down.
+- **D:** the client's alternative of analysing emotion in the *customer's* voice was rejected. It avoids Art 5(1)(f) but is high-risk (Annex III §1(c)) and needs Art 50(3) notices. The client signed off on the coaching-only metadata redesign.
+
+Full comparison: [`debrief-and-client-discussion.md`](./debrief-and-client-discussion.md).
